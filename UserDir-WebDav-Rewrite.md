@@ -67,3 +67,33 @@ Ahora comprobamos si la redirección se lleva a cabo de manera efectiva:
 
 
 4.- Instala la aplicación AWStats en tu apache para que muestre las estadísticas de acceso al virtual host que tu quieras.
+
+
+Instalaremos AWStats con el siguiente comando: 
+
+
+![](./img-11.PNG)
+
+Y realizaremos los siguientes cambios en su configuración:
+
+
+![](./img-12.PNG)
+
+
+![](./img-13.PNG)
+
+
+![](./img-14.PNG)
+
+
+![](./img-15.PNG)
+
+
+![](./img-16.PNG)
+
+
+![](./img-17.PNG)
+
+
+![](./img-18.PNG)
+
