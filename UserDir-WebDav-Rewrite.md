@@ -11,18 +11,18 @@ Primero creamos los dos usuarios: crddaw1 y crddaw2.
 Ahora procedemos a crear sus respectivos index.html en su fichero public_html.
 
 
-![](./img-2.png)
+![](./img-2.PNG)
 
 Ahora procedemos a editar el módulo UserDir y procedemos a deshabilitar al usuario crddaw2 tal y como nos pide el ejercicio.
 
 
-![](./img-3.png)
+![](./img-3.PNG)
 
 
 Y ahora hacemos las comprobaciones correspondientes, no sin antes activar el módulo userdir con el comando a2enmod userdir.
 
 
-![](./img-4.png)
+![](./img-4.PNG)
 
 2.- Habilita el módulo WebDav y configúralo mediante autenticación "Digest" de forma que puedas utilizar un servidor WebDav en tu apache con el explorador de archivos de tu sistema como cliente.
 
@@ -30,18 +30,18 @@ Y ahora hacemos las comprobaciones correspondientes, no sin antes activar el mó
 Primero de nada, activamos el módulo webdav con el comando a2enmod dav dav_fs. Luego crearemos una carpeta en la cual se guardará todos los ficheros de webdav y le asignaremos como propietario al usuario de apache2.
 
 
-![](./img-5.png)
+![](./img-5.PNG)
 
 
 Por último, crear la siguiente directiva en el archivo de configuración de nuestro virtualhost y crearemos un alias de igual modo para vincularlo con la carpeta webdav que creamos en el paso anterior.
 
-![](./img-6.png)
+![](./img-6.PNG)
 
 
 Ahora hacemos las comprobaciones necesarias:
 
 
-![](./img-7.png)
+![](./img-7.PNG)
 
 
 
@@ -51,19 +51,19 @@ Ahora hacemos las comprobaciones necesarias:
 Primero de nada, activamos el módulo rewritecond con el comando a2enmod rewrite. Ahora procedemos a crear el indexNuevo y el indexAntiguo para ser redireccionado respectivamente:
 
 
-![](./img-8.png)
+![](./img-8.PNG)
 
 
 Ahora en nuestro archivo .htaccess añadiremos los siguientes parámetros:
 
 
-![](./img-9.png)
+![](./img-9.PNG)
 
 
 Ahora comprobamos si la redirección se lleva a cabo de manera efectiva:
 
 
-![](./img-10.png)
+![](./img-10.PNG)
 
 
 4.- Instala la aplicación AWStats en tu apache para que muestre las estadísticas de acceso al virtual host que tu quieras.
