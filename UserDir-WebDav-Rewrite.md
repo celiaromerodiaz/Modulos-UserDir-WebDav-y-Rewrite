@@ -5,7 +5,7 @@
 
 Primero creamos los dos usuarios: crddaw1 y crddaw2.
 
-![](./img-1.png)
+![](./img-1.PNG)
 
 
 Ahora procedemos a crear sus respectivos index.html en su fichero public_html.
