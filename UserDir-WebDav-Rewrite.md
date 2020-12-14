@@ -97,3 +97,5 @@ Y realizaremos los siguientes cambios en su configuración:
 
 ![](./img-18.PNG)
 
+
+![](./img-19.PNG)
